@@ -1,0 +1,32 @@
+ai_zsarpong_workspace/
+  README.md
+  .gitignore
+  ai_zsarpong_models/
+    pretrained/
+    fine_tuned/
+    scripts/
+    model_manifest.json (example)
+  ai_zsarpong_data/
+    raw/
+    processed/
+    datasets.md
+  ai_zsarpong_prompts/
+    system_prompts.md
+    few_shot/
+    prompt-engineering.md
+  ai_zsarpong_services/
+    api/
+    workers/
+  ai_zsarpong_scripts/
+    train.py
+    evaluate.py
+    infer.py
+  ai_zsarpong_notebooks/
+  ai_zsarpong_infra/
+    docker/
+    k8s/
+  ai_zsarpong_tests/
+    unit/
+    integration/
+  ai_zsarpong_docs/
+    architecture.md

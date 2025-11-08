@@ -1,0 +1,23 @@
+# ai_zsarpong_workspace: ignore artifacts
+# model weights and checkpoints
+ai_zsarpong_models/**/*.bin
+ai_zsarpong_models/**/*.pt
+ai_zsarpong_models/**/*.ckpt
+ai_zsarpong_models/**/checkpoints/
+ai_zsarpong_models/**/weights/
+
+# datasets and raw files
+ai_zsarpong_data/raw/*
+ai_zsarpong_data/processed/*
+
+# large artifacts
+*.tar.gz
+*.zip
+
+# notebook checkpoints
+ai_zsarpong_notebooks/.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# virtual envs
+.venv/
+env/
