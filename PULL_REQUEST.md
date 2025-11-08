@@ -1,0 +1,1 @@
+This PR adds a uniquely-named AI workspace `ai_zsarpong_workspace` with starter README, .gitignore, and directory structure manifest. It intentionally avoids committing large model weights or raw data and includes guidance for next steps (adding training scripts, manifests, and CI).
