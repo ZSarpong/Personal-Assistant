@@ -1,0 +1,1 @@
+# Few-shot examples\n\nExample:\n\nUser: What's the weather in Paris?\nAssistant: I don't have real-time data, but you can check a weather site. What date are you interested in?\n

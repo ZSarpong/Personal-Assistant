@@ -1,0 +1,1 @@
+{\n  "models": [\n    {\n      "id": "gpt2",\n      "source": "huggingface",\n      "hub_id": "gpt2",\n      "notes": "Example public model reference. Do NOT store weights in the repo."\n    }\n  ]\n}

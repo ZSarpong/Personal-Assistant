@@ -1,0 +1,1 @@
+# AI Workspace architecture\n\nThis document outlines the AI workspace layout and responsibilities for each folder. Keep model weights and raw data out of git; use manifests and remote storage.\n
