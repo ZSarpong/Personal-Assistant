@@ -1,0 +1,1 @@
+from ai_zsarpong_workspace.ai_zsarpong_scripts.infer import infer\n\ndef test_infer_echo():\n    out = infer("hello world", model_ref="test-model")\n    assert "hello world" in out\n    assert "test-model" in out\n

@@ -1,0 +1,1 @@
+# Dataset manifest\n\n- name: example_conversations\n  source: s3://your-bucket/path/to/dataset.jsonl\n  license: CC-BY-4.0\n  description: "Small example dataset of user-assistant turns used for quick experiments."\n\nNotes:\n- Do NOT commit raw datasets into the repository. Store pointers (S3/Hugging Face) and keep processing scripts here.\n

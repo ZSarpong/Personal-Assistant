@@ -1,0 +1,1 @@
+FROM python:3.10-slim\nWORKDIR /app\nCOPY . /app\nRUN pip install --no-cache-dir fastapi uvicorn\nEXPOSE 8000\nCMD ["uvicorn", "ai_zsarpong_services.api.app:app", "--host", "0.0.0.0", "--port", "8000"]\n
